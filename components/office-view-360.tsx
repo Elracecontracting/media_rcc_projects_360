@@ -8,7 +8,7 @@ import { Rotate3d, MousePointer2, ZoomIn } from "lucide-react"
 export function OfficeView360() {
   const handleOpenTour = (e: React.MouseEvent) => {
     e.preventDefault()
-    window.location.href = "https://app.cloudpano.com/tours/1pa0jWBtL?mls=1"
+    window.location.href = "https://app.cloudpano.com/tours/0qzPOfuxP?mls=1"
   }
 
   return (
@@ -19,10 +19,10 @@ export function OfficeView360() {
             <div className="w-64 h-64 rounded-full overflow-hidden bg-white shadow-2xl shadow-black/20 flex items-center justify-center border-4 border-gradient-to-r from-black to-red-600 bg-gradient-to-r from-black to-red-600 p-1">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center p-4">
                 <Image
-                  src="/images/presidential-court-official-logo.png"
-                  alt="Presidential Court Official Logo"
+                  src="/images/uae-presidential-court-logo.jpg"
+                  alt="UAE Presidential Court - الإمارات العربية المتحدة ديوان الرئاسة"
                   width={450}
-                  height={240}
+                  height={450}
                   className="object-contain w-full h-full"
                 />
               </div>
